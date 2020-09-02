@@ -141,7 +141,7 @@
 						<div class="panel panel-default">
 						  <div class="panel-heading">Positive Tweets Count</div>
 						  <div class="panel-body">
-						    <button class="btn btn-success" type="button" >
+						    <button class="btn btn-success" type="button" onclick="location.href = 'analysis.jsp'">
 							  <span class="badge" style='font-size: 48px;'><%=posCount %></span>
 							</button>
 
@@ -152,9 +152,10 @@
 						<div class="panel panel-default">
 						  <div class="panel-heading">Negative Tweets Count</div>
 						  <div class="panel-body">
-						    <button class="btn btn-danger" type="button">
+					       <button class="btn btn-danger" type="button" onclick="location.href = 'analysis.jsp'">
 							  <span class="badge" style='font-size: 48px;'><%=negCount %></span>
 							</button>
+							</form>
 						  </div>
 						</div>
 						</div>
