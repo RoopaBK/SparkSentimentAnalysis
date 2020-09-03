@@ -146,7 +146,7 @@
 								%>
 						
 						<form action='adhoc' method=post >
-							<label>Enter the text</label>
+							<label>Enter your text</label>
 							<textarea placeholder="Your Text Here" class='form-control' required="required" name='text' minlength="20"></textarea>
 							<br/>
 							<input type=submit value='Analyze Text' class='btn btn-primary'/>
