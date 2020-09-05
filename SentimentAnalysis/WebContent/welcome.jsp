@@ -153,7 +153,7 @@
 						  <div class="panel-heading">Negative Tweets Count</div>
 						  <div class="panel-body">
 						    <button class="btn btn-danger" type="button" onclick="window.location ='analysis.jsp'">
-							  <span class="badge" style='font-size: 48px;'><%=negCount %></span>
+							 <span class="badge" style='font-size: 48px;'><%=negCount %></span>
 							</button>
 						  </div>
 						</div>
